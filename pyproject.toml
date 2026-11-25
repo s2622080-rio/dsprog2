@@ -7,7 +7,9 @@ authors = [
     { name = "rio", email = "s2622080@stu.musashino-u.ac.jp" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "flet>=1.1.3",
+]
 
 [project.scripts]
 dsprog2 = "dsprog2:main"
